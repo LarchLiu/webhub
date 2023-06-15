@@ -1,1 +1,4 @@
 FROM browserless/chrome:latest
+
+ARG STARGRAM_TOKEN
+ENV TOKEN=$STARGRAM_TOKEN
